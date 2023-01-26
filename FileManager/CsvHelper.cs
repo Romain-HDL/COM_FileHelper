@@ -46,7 +46,6 @@
 
             foreach (string registeredLine in Lines)
             {
-
                 string lineToTest = registeredLine.ToString();
                 //Si la partie en commentaire est retirée, le test 'NominalCase_GetFileContent ne passe plus'
                 //Cette partie devrait faire passer le dernier test, mais à la place, elle bloque l'autre.
